@@ -1,0 +1,337 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}    
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #8e8e93;
+    line-height: 1.625;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.mainmenu ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header-top-area {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.logo img {
+    margin-left: -15px;
+    padding: 57px 57px 57px 0;
+}
+.mainmenu ul li {
+    display: inline-block;
+}
+.mainmenu ul li a {
+    color: #fff;
+    display: block;
+    transition: all 0.3s ease 0s;
+    padding: 70px;
+    padding-right: 0;
+    padding-left: 40px;
+}
+.mainmenu ul li a.sign-up-btn {
+    background-color: #ff298e;
+    border: 1px solid #ff298e;
+    border-radius: 50px;
+    font-family: roboto;
+    font-weight: 700;
+    margin-left: 40px;
+    padding: 10px 25px;
+    transition: all 0.3s ease 0s;
+    text-transform: uppercase;
+}
+.mainmenu ul li a:hover {
+    color: #ff298e;
+}
+.mainmenu ul li a.sign-up-btn:hover {
+    background-color: #fff;
+}
+.homepage-slider, .service-slider {
+    background-image: linear-gradient(to left, #ed51f8, #2c23c1);
+    position: relative;
+    display: inline-block;
+}
+.homepage-slider img, .service-slider img {
+    opacity: 0.7;
+}
+
+
+.slider-area {
+    color: #fff;
+    padding-bottom: 210px;
+    padding-top: 340px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.slider-area a {
+    color: #fff;
+}
+
+.slider-area h2 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.slider-area p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.readmore-btn {
+    background-color: #ff298e;
+    border: 1px solid #ff298e;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 13px 25px;
+    text-transform: uppercase;
+    transition: .3s;
+    color: #fff;
+}
+.readmore-btn:hover{
+    background-color: #fff;
+    color: #ff298e;
+}
+.video-play-btn {
+    background-color: #a587e7;
+    border-radius: 50px;
+    display: inline-block;
+    line-height: 0;
+    margin-bottom: 30px;
+    opacity: 0.8;
+    padding: 30px 30px 30px 35px;
+    text-align: center;
+}
+
+
+.work-way-area {
+    padding: 145px 0;
+}
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    color: #333;
+    font-size: 36px;
+    font-weight: 300;
+}
+.work-bg-01{
+    background-image: url(img/work-bg-01.png);
+    background-position: center center;
+    background-size: cover;
+    width: 340px;
+    height: 400px
+}
+.work-bg-02{
+    background-image: url(img/work-bg-02.png);
+    background-position: center center;
+    background-size: cover;
+    width: 340px;
+    height: 400px
+}
+.work-bg-03{
+    background-image: url(img/work-bg-03.png);
+    background-position: center center;
+    background-size: cover;
+    width: 340px;
+    height: 400px
+}
+.single-work-item {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    color: #333;
+    box-shadow: 0 0 10px #f1f1f3;
+}
+.single-work-item img {
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.single-work-item p {
+    padding-bottom: 80px;
+}
+.section-padding {
+    color: #fff;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+.section-padding {
+    padding: 55px 0;
+}
+.service-title {
+    padding-bottom: 40px;
+}
+.service-title h2 {
+    font-size: 36px;
+    font-weight: 300;
+}
+.single-service-item {
+    margin-bottom: 70px;
+    text-align: center;
+}
+.single-service-item a {
+    color: #fff;
+}
+.single-service-item img {
+    margin-bottom: 40px;
+}
+.single-service-item h4 {
+    font-weight: 500;
+}
+.parallax-one{
+    background-image: url(img/overlay02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+}
+p.parallax-text {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 60px;
+    padding: 110px 0;
+}
+.job-bg {
+  background-color: #ddd;
+  background-image: url("img/25-overlay.png");
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: -25px;
+  margin-top: -25px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.job-bg > h2 {
+    color: #333;
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -20px;
+}
+.job-bg > h2 span {
+    font-size: 100px;
+}
+.job-bg > p {
+    margin-bottom: 45px;
+}
+
+.single-testimonials-item {
+    padding-bottom: 150px;
+    padding-top: 180px;
+}
+.single-testimonials-item h2 {
+    color: #333;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+p.testimanials-span-text {
+    color: #333;
+    font-weight: 500;
+    margin-top: 20px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+p.testimanials-span-text span {
+    color: #8e8e93;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.testimonials-list .owl-dots div {
+    border: 2px solid #e6e6e6;
+    border-radius: 50px;
+    display: inline-block;
+    height: 12px;
+    margin: 6px;
+    width: 12px;
+    transition: .5s;
+}
+.testimonials-list .owl-dots {
+    bottom: 0;
+    left: 0;
+    margin-bottom: 150px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.testimonials-list .owl-dots .active {
+    background-color: #333;
+}
+.sponsors-area{
+    background-color: #f5f5f5;
+}
+.sponsors-list-item {
+    display: inline-block;
+    margin-left: -80px;
+    padding: 0;
+}
+.sponsors-list-item img {
+    display: inline-block;
+    padding: 70px 0 70px 84px;
+}
+.parallax-two{
+    background-image: url(img/overlay03.jpg);
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallax-details p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+.parallax-details {
+    padding: 100px 0;
+}
+.footer-area{
+    background-color: #1a1a1a;
+}
+
+
+
+
+
+
